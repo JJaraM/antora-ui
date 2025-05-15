@@ -1,1 +1,17 @@
-    <link rel="stylesheet" href="{{{uiRootPath}}}/css/site.css">
+<script>
+  !function (theme, navWidth) {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark-theme')
+      document.documentElement.setAttribute('data-theme','dark')
+    } else {
+      document.documentElement.setAttribute('data-theme','light')
+    }
+    if (navWidth) document.documentElement.style.setProperty('--nav-width', `${navWidth}px`)
+  }(localStorage && localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)')?.matches && 'dark'),
+    localStorage && localStorage.getItem('nav-width'))
+</script>
+
+<link rel="stylesheet" href="{{{uiRootPath}}}/css/site.css">
+{{#if env.SITE_ASCIINEMA_PROVIDER}}
+{{> asciinema-styles}}
+{{/if}}

@@ -15,3 +15,5 @@
 @import "footer.css";
 @import "highlight.css";
 @import "print.css";
+@import "spring/spring-switchtheme.css";
+@import "themes/dark.css";

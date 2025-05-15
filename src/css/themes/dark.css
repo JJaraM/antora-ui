@@ -1,0 +1,10 @@
+html[data-theme=dark] {
+  --body-background: #1c1f2b;
+  --body-font-color: #c1c1c1;
+
+  --doc-font-color: #c1c1c1;
+  --nav-background: #181b25;
+
+  --toolbar-background: #1c1f2b;
+  --toolbar-font-color: #c1c1c1;
+}
