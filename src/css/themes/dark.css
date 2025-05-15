@@ -1,10 +1,15 @@
 html[data-theme=dark] {
+  /* Body */
   --body-background: #1c1f2b;
   --body-font-color: #c1c1c1;
 
+  /* Doc */
   --doc-font-color: #c1c1c1;
+
+  /* Nav */
   --nav-background: #181b25;
 
+  /* Toolbar */
   --toolbar-background: #1c1f2b;
   --toolbar-font-color: #c1c1c1;
 }
