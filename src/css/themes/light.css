@@ -137,7 +137,7 @@ html[data-theme=light] {
   --toc-width: calc(162 / var(--rem-base) * 1rem);
   --toc-width--widescreen: calc(216 / var(--rem-base) * 1rem);
   --doc-max-width: calc(720 / var(--rem-base) * 1rem);
-  --doc-max-width--desktop: calc(828 / var(--rem-base) * 1rem);
+  --doc-max-width--desktop: 70rem;
   /* stacking */
   --z-index-nav: 1;
   --z-index-toolbar: 2;
@@ -145,37 +145,15 @@ html[data-theme=light] {
   --z-index-navbar: 4;
   /* To Be clear */
 
-  /* Body */
-  --body-background: #fff;
-  --body-font-color: #000;
+  /* Common */
+  --primary-background: #fff;
+  --secondary-background: #f5f5f5;
+  --third-background: #f5f5f5;
+  --fourth-background: #000;
+  --fifth-background: #163b8d;
+  --sixth-background: #000;
 
-  /* Doc */
-  --doc-font-color: #000;
-
-  /* Navbar */
-  --navbar-background: #000;
-
-  /* Nav */
-  --nav-background: #f5f5f5;
-  --nav-container-border: var(--color-gray-70);
-  --nav-panel-divider-color: var(--color-jet-20);
-  --section-divider-color: var(--color-jet-20);
-
-  /* Toolbar */
-  --toolbar-background: #000;
-  --toolbar-font-color: #000;
-  --toolbar-border-color: #4a4a4a;
-
-  /* Scrollbar  */
-  --scrollbar-track-color: var(--color-black);
-  --scrollbar-track-color: var(--color-gray-70);
-  --scrollbar_hover-thumb-color: var(--color-gray-50);
-
-  /* Heading  */
-  --heading-font-color: #fff;
-
-  /* Code */
-  --code-background: #f5f5f5;
-  --pre-border-color: var(--code-background);
-  --pre-background: var(--code-background);
+  /* Font Colors */
+  --primary-font-color: #000;
+  --secondary-font-color: #2563eb;
 }

@@ -1,0 +1,46 @@
+html[data-theme=dark],
+html[data-theme=light] {
+
+  /* Body */
+  --body-background: var(--primary-background);
+  --body-font-color: var(--primary-font-color);
+
+  /* Doc */
+  --doc-font-color: var(--primary-font-color);
+
+  /* Navbar */
+  --navbar-background: var(--sixth-background);
+  --nav-heading-font-color: var(--primary-font-color);
+
+  /* Nav */
+  --nav-background: var(--secondary-background);
+  --nav-container-border: var(--color-gray-70);
+  --nav-panel-divider-color: var(--color-jet-20);
+  --section-divider-color: var(--color-jet-20);
+
+  /* Nav Item */
+  --nav-item-current-link: var(--secondary-font-color);
+
+  /* Toolbar */
+  --toolbar-background: var(--fourth-background);
+
+  /* Scrollbar  */
+  --scrollbar-track-color: var(--color-black);
+  --scrollbar-track-color: var(--color-gray-70);
+  --scrollbar_hover-thumb-color: var(--color-gray-50);
+
+  /* Heading  */
+  --heading-font-color: var(--primary-font-color);
+
+  /* Code */
+  --code-background: var(--third-background);
+  --pre-border-color: var(--code-background);
+  --pre-background: var(--code-background);
+
+  /* Breadcrumbs */
+  --breadcrumbs-background: var(--fifth-background);
+  --breadcrumbs-color: var(--secondary-font-color);
+
+  /* Link */
+  --link-font-color: var(--secondary-font-color);
+}

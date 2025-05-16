@@ -289,3 +289,11 @@
   font-weight: var(--body-font-weight-bold);
   opacity: 1;
 }
+
+li.nav-item.is-current-page > .nav-link {
+  color: var(--nav-item-current-link);
+}
+
+li.nav-item > .nav-link {
+  text-decoration: none;
+}

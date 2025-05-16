@@ -64,7 +64,7 @@ html[data-theme=dark] {
   /* admonitions */
   --caution-color: #a0439c;
   --caution-on-color: var(--color-white);
-  --important-color: #d32f2f;
+  --important-color: #e48282;
   --important-on-color: var(--color-white);
   --note-color: #217ee7;
   --note-on-color: var(--color-white);
@@ -137,7 +137,7 @@ html[data-theme=dark] {
   --toc-width: calc(162 / var(--rem-base) * 1rem);
   --toc-width--widescreen: calc(216 / var(--rem-base) * 1rem);
   --doc-max-width: calc(720 / var(--rem-base) * 1rem);
-  --doc-max-width--desktop: calc(828 / var(--rem-base) * 1rem);
+  --doc-max-width--desktop: 70rem;
   /* stacking */
   --z-index-nav: 1;
   --z-index-toolbar: 2;
@@ -145,37 +145,15 @@ html[data-theme=dark] {
   --z-index-navbar: 4;
   /* To Be clear */
 
-  /* Body */
-  --body-background: #1c1f2b;
-  --body-font-color: #c1c1c1;
+  /* Common */
+  --primary-background: #1c1f2b;
+  --secondary-background: #181b25;
+  --third-background: #292d3e;
+  --fourth-background: #1c1f2b;
+  --fifth-background: #ff6347;
+  --sixth-background: #1c1f2b;
 
-  /* Doc */
-  --doc-font-color: #c1c1c1;
-
-  /* Navbar */
-  --navbar-background: #1c1f2b;
-
-  /* Nav */
-  --nav-background: #181b25;
-  --nav-container-border: var(--color-gray-70);
-  --nav-panel-divider-color: var(--color-jet-20);
-  --section-divider-color: var(--color-jet-20);
-
-  /* Toolbar */
-  --toolbar-background: #1c1f2b;
-  --toolbar-font-color: #fff;
-  --toolbar-border-color: #4a4a4a;
-
-  /* Scrollbar  */
-  --scrollbar-track-color: var(--color-black);
-  --scrollbar-track-color: var(--color-gray-70);
-  --scrollbar_hover-thumb-color: var(--color-gray-50);
-
-  /* Heading  */
-  --heading-font-color: #c1c1c1;
-
-  /* Code */
-  --code-background: #292d3e;
-  --pre-border-color: var(--code-background);
-  --pre-background: var(--code-background);
+  /* Font Colors */
+  --primary-font-color: #c1c1c1;
+  --secondary-font-color: #e48282;
 }

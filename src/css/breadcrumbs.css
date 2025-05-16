@@ -36,3 +36,13 @@ a + .breadcrumbs {
 .breadcrumbs li:last-of-type::after {
   content: none;
 }
+
+.breadcrumbs ul > li:last-child {
+  background: var(--breadcrumbs-background);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.breadcrumbs ul > li {
+  padding: 5px 10px;
+}
