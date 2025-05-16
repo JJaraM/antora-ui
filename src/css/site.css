@@ -1,6 +1,5 @@
 @import "typeface-roboto.css";
 @import "typeface-roboto-mono.css";
-@import "vars.css";
 @import "base.css";
 @import "body.css";
 @import "nav.css";
@@ -17,3 +16,4 @@
 @import "print.css";
 @import "spring/spring-switchtheme.css";
 @import "themes/dark.css";
+@import "themes/light.css";

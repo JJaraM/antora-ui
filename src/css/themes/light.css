@@ -1,4 +1,5 @@
-:root {
+html[data-theme=light] {
+  /* To Be clear */
   /* colors */
   --color-white: #fff;
   --color-smoke-10: #fefefe;
@@ -6,7 +7,7 @@
   --color-smoke-50: #f5f5f5;
   --color-smoke-70: #f0f0f0;
   --color-smoke-90: #e1e1e1;
-  --color-gray-10: #c1c1c1;
+  --color-gray-10: #000;
   --color-gray-30: #9c9c9c;
   --color-gray-40: #8e8e8e;
   --color-gray-50: #808080;
@@ -29,7 +30,6 @@
   --monospace-font-family: "Roboto Mono", monospace;
   --monospace-font-weight-bold: 600;
   /* base */
-  --body-background: var(--color-white);
   --panel-background: var(--color-smoke-30);
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-track-color: var(--color-smoke-30);
@@ -143,4 +143,39 @@
   --z-index-toolbar: 2;
   --z-index-page-version-menu: 3;
   --z-index-navbar: 4;
+  /* To Be clear */
+
+  /* Body */
+  --body-background: #fff;
+  --body-font-color: #000;
+
+  /* Doc */
+  --doc-font-color: #000;
+
+  /* Navbar */
+  --navbar-background: #000;
+
+  /* Nav */
+  --nav-background: #f5f5f5;
+  --nav-container-border: var(--color-gray-70);
+  --nav-panel-divider-color: var(--color-jet-20);
+  --section-divider-color: var(--color-jet-20);
+
+  /* Toolbar */
+  --toolbar-background: #000;
+  --toolbar-font-color: #000;
+  --toolbar-border-color: #4a4a4a;
+
+  /* Scrollbar  */
+  --scrollbar-track-color: var(--color-black);
+  --scrollbar-track-color: var(--color-gray-70);
+  --scrollbar_hover-thumb-color: var(--color-gray-50);
+
+  /* Heading  */
+  --heading-font-color: #fff;
+
+  /* Code */
+  --code-background: #f5f5f5;
+  --pre-border-color: var(--code-background);
+  --pre-background: var(--code-background);
 }
