@@ -12,6 +12,8 @@
   font-size: calc(17 / var(--rem-base) * 1rem);
   z-index: var(--z-index-nav);
   visibility: hidden;
+  box-shadow: 0 0 0 0.2px var(--nav-panel-divider-color);
+  border-right: 0.2px solid var(--nav-container-border);
 }
 
 @media screen and (min-width: 769px) {

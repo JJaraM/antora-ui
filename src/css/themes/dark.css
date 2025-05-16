@@ -6,10 +6,30 @@ html[data-theme=dark] {
   /* Doc */
   --doc-font-color: #c1c1c1;
 
+  /* Navbar */
+  --navbar-background: #1c1f2b;
+
   /* Nav */
   --nav-background: #181b25;
+  --nav-container-border: var(--color-gray-70);
+  --nav-panel-divider-color: var(--color-jet-20);
+  --section-divider-color: var(--color-jet-20);
 
   /* Toolbar */
   --toolbar-background: #1c1f2b;
-  --toolbar-font-color: #c1c1c1;
+  --toolbar-font-color: #fff;
+  --toolbar-border-color: #4a4a4a;
+
+  /* Scrollbar  */
+  --scrollbar-track-color: var(--color-black);
+  --scrollbar-track-color: var(--color-gray-70);
+  --scrollbar_hover-thumb-color: var(--color-gray-50);
+
+  /* Heading  */
+  --heading-font-color: #c1c1c1;
+
+  /* Code */
+  --code-background: #292d3e;
+  --pre-border-color: var(--code-background);
+  --pre-background: var(--code-background);
 }
